@@ -1,6 +1,6 @@
 # main text of home
-name: Niveditha Ram
-bio: 'Physics, Teaching, Engineering.'
+name: Vishal Arya
+bio: I always seems to smile
 
 # twitter summary info
 description: A blog about Physics and teaching science
@@ -10,7 +10,8 @@ description: A blog about Physics and teaching science
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-# url: http://artiannaswamy.com
+# url: http://myfj.github.io
+
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -25,17 +26,17 @@ highlighter: rouge
 #disqus: artiannaswamy
 
 # if you don't have any of social below, comment the line
-# facebook: myfacebook
+facebook: myfanntasticj
 twitter: NivedithaRam
 # google: mygoogle
-# instagram: myinstagram
+instagram: myfanntasticjourey
 #pinterest: annasw
-#linkedin: artiannaswamy
+linkedin: vishal-arya-29940b132/
 # youtube: myyoutube
 # spotify: myspotify
 github: NivedithaRam
-# medium: medium
-email: niveditha.ramasubramanian@stonybrook.edu
+medium: myfantasticj
+email: work8vishal@gmail.com
 
 authors:
     NivedithaRam:
