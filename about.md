@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image] ({{ site.url }}/{{ site.picture }})
+![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <p>I'm an undergrad at Cochin University of Science and Technology pursuing Information Technology Engineering. I love analysing real datas which revolves around me and those data had bend me towards social Entrepreneurship, So I learn technology to make our society a more better place . </p>
 <p>I love Collaborating with people and listen to their view on a better society and you this activity of mine makes me happy more than anything in the this world ! I am also involved in communities that promote diversity in tech  .</p>
