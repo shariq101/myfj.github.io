@@ -17,7 +17,7 @@ medium : vishal-arya-41
 linkedin: in/vishal-arya-29940b132/
 #youtube: myyoutube
 github: myfj
-quora: vishal-arya-41
+#quora: vishal-arya-41
 email: work8.vishal@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
