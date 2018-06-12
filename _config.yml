@@ -1,9 +1,13 @@
 name: Vishal Arya
 bio: 'I always seems to smile'
+external-image: true
 picture: 'assets/images/profile.jpg'
 
 url: http://myfj.github.io/
 permalink: /:title/
+
+markdown: kramdown
+highlighter: rouge
 
 #analytics: 'UA-73836399-1'
 #disqus: mydisqus
