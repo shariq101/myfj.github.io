@@ -26,8 +26,9 @@ highlighter: rouge
 #disqus: artiannaswamy
 
 # if you don't have any of social below, comment the line
-facebook: myfanntasticj
+
 twitter: myfanntasticj
+facebook: myfanntasticj
 # google: mygoogle
 instagram: myfanntasticjourey
 #pinterest: annasw
@@ -49,7 +50,7 @@ authors:
 
 # do you want a larger site? change the option below
  options: [normal, large] | default: normal
-normal = 600px / large = 810px
+normal = 820px / large = 810px
 width: large
 
 # if you don't need pagination, comment the *paginate* configs below
@@ -58,7 +59,7 @@ width: large
 
 # if you don't need projects, comment the *projects* configs below
 # projects: true
-research: true
+Resume: true
 teaching: true
 # if you don't need about or blog, comment them out below
 about: true
