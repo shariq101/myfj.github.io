@@ -27,10 +27,10 @@ highlighter: rouge
 
 # if you don't have any of social below, comment the line
 
-twitter: myfanntasticj
+twitter: myfantasticj
 #facebook: myfanntasticj
 # google: mygoogle
-instagram: myfanntasticjourey
+instagram: myfantasticjourey
 #pinterest: annasw
 linkedin: vishal-arya-29940b132/
 # youtube: myyoutube
@@ -60,7 +60,7 @@ authors:
 # if you don't need projects, comment the *projects* configs below
 # projects: true
 Resume: true
-teaching: true
+gallary: true
 # if you don't need about or blog, comment them out below
 about: true
 blog: true
