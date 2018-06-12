@@ -1,91 +1,24 @@
-# main text of home
 name: Vishal Arya
-bio: I always seems to smile
-
-# twitter summary info
-description: A blog about Physics and teaching science
-
-# if it's an external image, update below for true
-# better with square images
-external-image: True
+bio: 'I always seems to smile'
 picture: 'assets/images/profile.jpg'
 
-# url: http://myfj.github.io
-
-# your url: http://USERNAME.github.io
-
+url: http://myfj.github.io/
 permalink: /:title/
 
-markdown: kramdown
-highlighter: rouge
-
-# To enable google analytics, supply your token below
-#analytics-google: 'UA-74313908-1'
-
-# if you don't want comments in your posts, set to false
-#disqus: artiannaswamy
-
-# if you don't have any of social below, comment the line
-
+#analytics: 'UA-73836399-1'
+#disqus: mydisqus
+facebook: myfantasticj
 twitter: myfantasticj
-facebook: myfanntasticj
-# google: mygoogle
-instagram: myfantasticjourey
-#pinterest: annasw
-linkedin: vishal-arya-29940b132/
-# youtube: myyoutube
-# spotify: myspotify
+linkedin: in/vishal-arya-29940b132/
+#youtube: myyoutube
 github: myfj
-medium: myfantasticj
-email: work8vishal@gmail.com
+email: work8.vishal@gmail.com
 
-authors:
-    vishal
-        name: Vishal arya
-        bio: I always seems to smile.
-        external-image: True
-        picture: assets/images/profile.jpg
-        twitter: myfantasticj
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
-
-# do you want a larger site? change the option below
- #options: [normal, large] | default: normal
-#normal = 820px / large = 810px
-#width: large
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
-# if you don't need projects, comment the *projects* configs below
-# projects: true
-Resume: true
-gallary: true
-# if you don't need about or blog, comment them out below
-about: true
-blog: true
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# show next & prev links in blog post?
-blog-nav-links: true
-
-# show author block at the end of a post ?
-show-author: true
-
-# do you want some animations?
-animation: true
-
-sass:
-    sass_dir: _sass
-    style: :compressed
+#pagination
+paginate: 5
+paginate_path: "blog/page:num/"
 
 gems:
   - jemoji
@@ -96,7 +29,5 @@ gems:
   - jekyll-gist
   - jekyll-paginate
 
-#jekyll-mentions:
-    #base_url: http://artiannaswamy.com
-
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh, tasks]
+jekyll-mentions:
+    base_url: https://github.com
