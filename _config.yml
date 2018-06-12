@@ -9,7 +9,7 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
-#analytics: 'UA-73836399-1'
+analytics: 'UA-120753506-1'
 #disqus: mydisqus
 facebook: myfantasticj
 twitter: myfantasticj
