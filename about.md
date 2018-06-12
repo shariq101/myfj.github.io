@@ -23,4 +23,4 @@ layout: page
 	<li>Java</li>
 </ul>
 
-<p> Back to <a href="myfj.github.io">home page</a>
+<p> Back to <a href="https://myfj.github.io//">home page</a>
