@@ -1,43 +1,20 @@
-{% if page.title == "Home"%}{% assign showHeader = true %}{% endif %}
+% if page.title == "Home" %}{% assign x = true %}{% endif %}
 
-{% if page.title == "Blog" 
-	or page.title == "Project" 
-	or page.title == "About" 
-	or page.title == "Gallary" 
-   	or page.title == "Tags"
-%}{% assign showMinHeader = true %}{% endif %}
+{% if x == true %}
+    <header class="home__header">
+        <img alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
 
-{% for post in site.posts %}	
-	{% for tag in post.tags %}
-		{% if tag == page.tag %}
-			{% assign showMinHeader = true %}
-		{% endif %}
-	{% endfor %}
-{% endfor %}			
-
-{% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-        {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </a>
-        {% else %}
-            <span class="link">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </span>
-        {% endif %}
-
-        <h1 class="title">{{ site.name }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
-
-        {% include social-links.html %}
-    </header>
-{% endif %}
-
-{% if showMinHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-        <h1 class="title">{{ page.title }}</h1>
-        {% include social-links.html %}
+        <h1><a href = {{ site.url }}> {{ site.name }} </a> </h1>
+        <h2>{{ site.bio }}</h2>
+        <div class="home__header-social">
+            <a href="http://facebook.com/{{ site.facebook }}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a>
+            <a href="http://twitter.com/{{ site.twitter }}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
+            <a href="https://github.com/{{ site.github }}" target="_blank"><svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
+            <!--<a href="http://instagram.com/{{ site.instagram }}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a>-->
+            <a href="http://linkedin.com/{{ site.linkedin }}" target="_blank"><svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg></a>
+            <!--<a href="http://youtube.com/{{ site.youtube }}" target="_blank"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a>-->
+            <a href="mailto:{{ site.email }}" target="_blank"><svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
+        </div>
     </header>
 {% endif %}
 
