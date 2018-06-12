@@ -7,7 +7,7 @@ description: A blog about Physics and teaching science
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: True
 picture: 'assets/images/profile.jpg'
 
 # url: http://myfj.github.io
