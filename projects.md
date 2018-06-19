@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: page
-permalink: /projects/index.html
+
 ---
 <h2>Skills</h2>
 
