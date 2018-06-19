@@ -19,7 +19,7 @@ linkedin: vishal-arya-29940b132/
 github: myfj
 instagram: myfantasticjourney
 #quora: vishal-arya-41
-email: work8.vishal@gmail.com
+email: work8vishal@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 markdown: kramdown
