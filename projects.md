@@ -1,8 +1,8 @@
 ---
 title: Projects
 layout: page
+permalink: /projects/index.html
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
 
 
 <h2>Skills</h2>
