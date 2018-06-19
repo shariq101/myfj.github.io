@@ -15,7 +15,7 @@ layout: page
         {% endif %}
     {% endfor %}
 </section>
-<h2>Skills</h2>
+<h2>Projects</h2>
 
 
 
