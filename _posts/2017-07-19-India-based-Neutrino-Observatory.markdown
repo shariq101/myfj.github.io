@@ -1,5 +1,5 @@
 ---
-title: "India-based Neutrino Observatory"
+title: "MY projects"
 layout: post
 date: 2017-07-19 18:23
 tag: myfj
@@ -14,5 +14,5 @@ summary: ""
 Check tags
 
 
-[INO](http://www.ino.tifr.res.in/ino/) 
+[INO](https://myfj.github.io//) 
 
