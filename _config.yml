@@ -28,18 +28,10 @@ exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.j
 markdown: kramdown
 highlighter: rouge
 
-analytics-google: 'UA-51322118-1'
+#analytics-google: 'UA-51322118-1'
 
 # if you don't want comments in your posts, set to false
-disqus: andrevvalle
-
-# if you don't have any of social below, comment the line
-
-# google: mygoogle
-# pinterest: mypinterest
-# youtube: myyoutube
-# spotify: myspotify
-# medium: medium
+#disqus: 
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -55,7 +47,7 @@ projects: True
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: false
+#blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
