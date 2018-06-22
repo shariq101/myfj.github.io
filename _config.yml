@@ -4,7 +4,8 @@ external-image: true
 picture: 'assets/images/profile.jpg'
 
 url: http://myfj.github.io/
-permalink: /:title/
+# permalink
+#permalink: /:title/
 #resume: true
 #resume-external: true
 
