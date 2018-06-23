@@ -68,7 +68,7 @@ paginate_path: "blog/page:num/"
 
 
 
-gems:
+plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
