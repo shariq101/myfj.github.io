@@ -4,4 +4,4 @@ layout: page
 ---
 
 
-<p> Projects </p>
+<h> Projects </h>
