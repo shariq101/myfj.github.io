@@ -4,6 +4,6 @@ layout: page
 ---
 
 
-** Projects **
-<h> 1. Newciety </h>
-<h> 2. cusatShell </h>
+<h2>Skills</h2>
+<h3> 1. Newciety </h3>
+<h3> 2. cusatShell </h3>
