@@ -4,6 +4,6 @@ layout: page
 ---
 
 
-<h2>Skills</h2>
-<h3> 1. Newciety </h3>
+<h2>Projects</h2>
+<h3> <a href="https://pushnpull.github.io/Newciety/">1. Newciety</a> </h3>
 <h3> 2. cusatShell </h3>
